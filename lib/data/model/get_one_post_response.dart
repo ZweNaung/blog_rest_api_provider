@@ -25,4 +25,8 @@ class GetOnePostResponse {
     return map;
   }
 
+  @override
+  String toString() {
+    return 'GetOnePostResponse{id: $id, title: $title, body: $body, photo: $photo}';
+  }
 }
