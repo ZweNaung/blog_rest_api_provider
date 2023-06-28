@@ -1,9 +1,9 @@
-import '../data/model/get_all_post_response.dart';
+import 'package:blog_rest_api_provider/data/model/get_all_post_response.dart';
 
 abstract class GetAllPostState{}
 
-class GetAllPostLoading extends GetAllPostState{}
 
+class GetAllPostLoading extends GetAllPostState{}
 
 class GetAllPostSuccess extends GetAllPostState{
   final List<GetAllPostResponse> getAllPostList;
@@ -11,6 +11,6 @@ class GetAllPostSuccess extends GetAllPostState{
 }
 
 class GetAllPostFailed extends GetAllPostState{
-  final String errorMessage;
+  String errorMessage;
   GetAllPostFailed(this.errorMessage);
 }
