@@ -11,7 +11,7 @@ class GetOnePostResponse {
     body = json['body'];
     photo = json['photo'];
   }
-  num? id;
+  int? id;
   String? title;
   String? body;
   String? photo;
