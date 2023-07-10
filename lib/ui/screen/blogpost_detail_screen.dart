@@ -14,6 +14,7 @@ class BlogPostDetailScreen extends StatefulWidget {
 }
 
 class _BlogPostDetailScreenState extends State<BlogPostDetailScreen> {
+  
 
   @override
   void didChangeDependencies() {
